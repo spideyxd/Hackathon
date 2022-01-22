@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+
+    background: #d3dfee;
+    background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+ input {
+    font-family: "Cookie", cursive;
+    font-size: 110px;
+    color: whitesmoke;
+    background-color: inherit;
+    outline: 0;
+    font-size: x-large;
+    text-decoration-style: none;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid white;
+  }
+  
+  input::placeholder {
+    font-size: 30px;
+    color: rgb(165, 167, 164);
+  }
+
+  #input-field {
+    font-family: "Cookie", cursive;
+    color: rgba(252, 247, 247, 0.808);
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+    margin-left: 50px;
+  }
+  input:focus::placeholder {
+    opacity: 0;
+  }
+  .icon img {
+    margin-top: 50px;
+float: left;
+    height: 70px;
+    margin-left: 30px;
+  }
+
+button.btn.btn-danger{
+
+margin-left: 123px;
+  }
+  #card {
+   
+    box-shadow: 0px 0px 30px 5px #181717; 
+    position: absolute;
+    transition: width 0.5s, box-shadow 1s;
+    overflow: hidden;
+  
+    width: 470px;
+    height: 200px;
+    background: #1e2131;
+    margin-top: 200px;
+    margin-left: 500px;
+  }
+  
+  #try{
+    margin-top: 445px;
+    display: inline-block;
+    width: auto;
+    height:auto;
+
+  }
+
+  #try button{
+
+    margin:40px 30px ;
+  }
+
+    .loading{
+      margin-left: -40px;
+  
+    }
+
+  #loader {
+   
+    opacity: 0;
+    border:6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid #3498db;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
