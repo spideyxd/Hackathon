@@ -7,7 +7,7 @@ body {
 }
 
 #card-group {
-  opacity: 0.65;
+  cursor: pointer;
   height: 350px;
   width: 700px;
   display: flex;
@@ -16,8 +16,9 @@ body {
 }
 
 #card1 {
+  opacity: 0.65;
   border: 2px solid #c5c0c0;
-  transition: transform 0.2s;
+  transition: transform 0.2s,opacity 0.7s;
   background: url(img/saket.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,8 +26,10 @@ body {
   margin-left: 20px;
 }
 #card2 {
+  opacity: 0.65;
   border: 2px solid #c5c0c0;
-  transition: transform 0.2s;
+  transition: transform 0.2s,opacity 0.7s;
+  
   background: url(img/aman.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,17 +37,19 @@ body {
   margin-left: 20px;
 }
 #card4 {
+   transition: opacity 0.2s;
+  opacity: 0.65;
   border: 2px solid #c5c0c0;
-  transition: transform 0.2s;
+  transition: transform 0.2s,opacity 0.7s;
   background: url(img/shivam.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 200px;
   margin-left: 20px;
 }
-#card3 {
+#card3 {opacity: 0.65;
   border: 2px solid #c5c0c0;
-  transition: transform 0.2s;
+  transition: transform 0.2s,opacity 0.7s;
   background: url(img/sparsh.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,6 +77,7 @@ body {
 }
 
 #card1:hover {
+  opacity: 1;
   transform: scale(1.1);
 }
 
@@ -84,6 +90,7 @@ body {
 }
 
 #card2:hover {
+  opacity: 1;
   transform: scale(1.1);
 }
 
@@ -95,6 +102,7 @@ body {
   width: 150px;
 }
 #card3:hover {
+  opacity: 1;
   transform: scale(1.1);
 }
 
@@ -106,6 +114,7 @@ body {
   width: 150px;
 }
 #card4:hover {
+  opacity: 1;
   transform: scale(1.1);
 }
 
