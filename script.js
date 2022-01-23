@@ -1,7 +1,7 @@
 let text = "";
 
 function loop(item, index) {
-  text += `<button type="button" class="btn btn-primary"><a  style="text-decoration:none; color:white" target="_blank" href="${item["url"]}">Story ${index+1}</a></button>`;
+  text += `<a  style="text-decoration:none; color:white" target="_blank" href="${item["url"]}"><button type="button" >Story ${index+1}</button></a>`;
   // text += `<button type="button" class="btn"><a  style="text-decoration:none;" target="_blank" href="${item['url']}">BUTTON ${index}</a</button> <br>`;
 }
 

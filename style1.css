@@ -5,7 +5,7 @@
 }
 
 .header {
-  height: 100vh;
+  height: 80vh;
   background: url(images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,10 +88,15 @@ input:focus::placeholder {
   background: url("images/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 750px;
 }
 
 .cnt {
+  display: flex;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
  padding-top: 200px;
   color: white;
   text-align: center;
@@ -180,11 +185,34 @@ button {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  margin-top: 100px;
-  transition: background-color 1s;
-  transition: color 1s;
+  margin-top:600px;
+  transition: background-color 1s,color 1s;
+  
   margin-left: 40px;
 }
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+#text {
+
+  width: 100%;
+  animation: typing 4s steps(41), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+
+
 /* a {
   position: relative;
   background-color: rgb(255, 0, 0);
